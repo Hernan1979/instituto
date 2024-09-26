@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto de Análisis Político</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Instituto de Análisis Político</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#analyses">Análisis</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#support">Apóyanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h2>Reflexiones Políticas para el Futuro</h2>
+            <p>Análisis profundos sobre la política peruana y mundial</p>
+            <a href="#analyses" class="btn">Ver análisis recientes</a>
+        </div>
+    </section>
+
+    <section id="analyses">
+        <div class="container">
+            <h2>Análisis Recientes</h2>
+            <div id="analyses-list">
+                <!-- Los análisis se cargan dinámicamente aquí -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>El Instituto de Análisis Político es un think tank dedicado al estudio de los fenómenos políticos en Perú y el mundo. Nuestro equipo de analistas proporciona investigaciones rigurosas y análisis detallados sobre los principales acontecimientos políticos.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo" required>
+                <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="support" class="support-section">
+        <div class="container">
+            <h2>Apóyanos</h2>
+            <p>Ayúdanos a continuar nuestros análisis con tu apoyo. Puedes contribuir a través de las siguientes plataformas:</p>
+            <a href="https://yape.com" class="btn">Donar con Yape</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Instituto de Análisis Político. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
